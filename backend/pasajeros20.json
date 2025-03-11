@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "hasConnections": false,
+      "age": 45,
+      "flightCategory": "Gold",
+      "reservationId": "R001",
+      "hasCheckedBaggage": true
+    },
+    {
+      "id": 2,
+      "name": "Ana González",
+      "hasConnections": true,
+      "age": 34,
+      "flightCategory": "Platinum",
+      "reservationId": "R002",
+      "hasCheckedBaggage": false
+    },
+    {
+      "id": 3,
+      "name": "Carlos Ramírez",
+      "hasConnections": false,
+      "age": 60,
+      "flightCategory": "Normal",
+      "reservationId": "R003",
+      "hasCheckedBaggage": true
+    },
+    {
+      "id": 4,
+      "name": "María López",
+      "hasConnections": true,
+      "age": 28,
+      "flightCategory": "Black",
+      "reservationId": "R004",
+      "hasCheckedBaggage": false
+    },
+    {
+      "id": 5,
+      "name": "Pedro Sánchez",
+      "hasConnections": false,
+      "age": 38,
+      "flightCategory": "Gold",
+      "reservationId": "R005",
+      "hasCheckedBaggage": true
+    },
+    {
+      "id": 6,
+      "name": "Laura Gómez",
+      "hasConnections": false,
+      "age": 50,
+      "flightCategory": "Platinum",
+      "reservationId": "R006",
+      "hasCheckedBaggage": true
+    },
+    {
+      "id": 7,
+      "name": "Ricardo Torres",
+      "hasConnections": true,
+      "age": 42,
+      "flightCategory": "Black",
+      "reservationId": "R007",
+      "hasCheckedBaggage": false
+    },
+    {
+      "id": 8,
+      "name": "Fernanda Herrera",
+      "hasConnections": false,
+      "age": 30,
+      "flightCategory": "Normal",
+      "reservationId": "R008",
+      "hasCheckedBaggage": false
+    },
+    {
+      "id": 9,
+      "name": "Hugo Díaz",
+      "hasConnections": true,
+      "age": 36,
+      "flightCategory": "Gold",
+      "reservationId": "R009",
+      "hasCheckedBaggage": true
+    },
+    {
+      "id": 10,
+      "name": "Carolina Silva",
+      "hasConnections": false,
+      "age": 55,
+      "flightCategory": "Platinum",
+      "reservationId": "R010",
+      "hasCheckedBaggage": false
+    }
+  ]
+  
