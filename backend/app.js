@@ -1,13 +1,18 @@
-require('dotenv').config();
-const express = require("express");
-const { Pool } = require("pg");
-const bodyParser = require("body-parser");
+import express from 'express';
+import dotenv from 'dotenv';
+import pkg from 'pg';
+import bodyParser from 'body-parser';
+import cors from 'cors';
+
+// Configuración de dotenv
+dotenv.config();
+
+// Desestructuración de Pool desde el paquete pg
+const { Pool } = pkg;
 
 const app = express();
 app.use(bodyParser.json());
-const cors = require("cors");
 app.use(cors());
-
 
 // Configuración de PostgreSQL
 const pool = new Pool({
@@ -17,6 +22,7 @@ const pool = new Pool({
   password: process.env.DB_PASSWORD,
   port: process.env.DB_PORT,
 });
+
 
 // Función para priorizar pasajeros en caso de overbooking
 const prioritizePassengers = (passengers, capacity) => {
